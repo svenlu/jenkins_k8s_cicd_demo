@@ -1,4 +1,4 @@
-FROM golang:1.8.0-alpine
+FROM uhub.service.ucloud.cn/wxyz/golang:1.11.1-ci1
 
 ADD . /go/src/app
 
