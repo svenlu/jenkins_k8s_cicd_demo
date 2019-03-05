@@ -1,5 +1,4 @@
-FROM uhub.service.ucloud.cn/wxyz/golang:1.11.1-ci1
-
+FROM uhub.service.ucloud.cn/jenkins_k8s_cicd/golang:1.8.0-alpine
 ADD . /go/src/app
 
 WORKDIR /go/src/app
